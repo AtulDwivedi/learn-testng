@@ -1,0 +1,13 @@
+<suite name="Suite World">
+<test name="Test Name">
+  <groups>
+    <run>
+      <include name="functest" />
+      <exclude name="regtest" />
+    </run>
+  </groups>
+  <classes>
+    <class name="com.atuldwivedi.testng.beginner.group.GroupTest"/>
+  </classes>
+</test>
+</suite>

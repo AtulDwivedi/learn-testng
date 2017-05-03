@@ -1,0 +1,15 @@
+<suite name="Sample 1">
+        <test name="MySuite">
+            <groups>
+                <define name="group3">
+                    <include name="group2"/>
+                </define>
+                <dependencies>
+                    <group name="group2" depends-on="group3"/>
+                </dependencies>
+            </groups>
+            <classes>
+                <class name="com.atuldwivedi.testng.beginner.group.Five"/>
+            </classes>
+        </test>
+    </suite>

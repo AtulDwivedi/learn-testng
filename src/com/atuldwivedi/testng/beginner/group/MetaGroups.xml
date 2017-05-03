@@ -1,0 +1,27 @@
+<suite name="Groups of Groups">
+	<test name="MetaGroups Test">
+		<groups>
+			<!-- allstack group includes both liux.jboss.oracle and aix.was.db2 -->
+			<define name="allstack">
+				<include name="liux.jboss.oracle" />
+				<include name="aix.was.db2" />
+			</define>
+
+			<!-- systemtest group includes all groups allstack, regression and acceptance -->
+			<define name="systemtest">
+				<include name="allstack" />
+				<include name="regression" />
+				<include name="acceptance" />
+			</define>
+
+			<run>
+				<include name="systemtest" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.atuldwivedi.testng.beginner.group.MetaGroupsTest" />
+		</classes>
+	</test>
+
+</suite>

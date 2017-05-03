@@ -1,0 +1,13 @@
+<suite name="Sample 1">
+    <test name="MySuite">
+        <!-- filters testOne, but since it dependsOn non existent group it fails. -->
+        <groups>
+        <dependencies>
+           <!--  <group name="group1" depends-on="group2"/> -->
+        </dependencies>         
+    </groups>
+    <classes>
+        <class name="com.atuldwivedi.testng.beginner.group.Five"/>
+    </classes>
+</test>
+</suite>

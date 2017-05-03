@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hello World]">
+  <test name="Random Number Generator Test(failed)">
+    <classes>
+      <class name="com.atuldwivedi.testng.beginner.helloworld.PopulateBorrowerTestClass">
+        <methods>
+          <include name="PopulateBorrower"/>
+        </methods>
+      </class> <!-- com.atuldwivedi.testng.beginner.helloworld.PopulateBorrowerTestClass -->
+    </classes>
+  </test> <!-- Random Number Generator Test(failed) -->
+</suite> <!-- Failed suite [Hello World] -->

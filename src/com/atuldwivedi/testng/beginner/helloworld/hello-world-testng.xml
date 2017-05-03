@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hello World">
+   <test name="First test">
+    <classes>
+      <class name="com.atuldwivedi.testng.beginner.helloworld.FirstTest" />
+    </classes>
+  </test>
+</suite>	

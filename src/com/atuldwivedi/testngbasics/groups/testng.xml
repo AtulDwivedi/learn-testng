@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="1">
+    <suite-files>
+        <suite-file path="groups.xml" />
+    </suite-files>
+  <!--  <test name="Sample test">
+    <classes>
+      <class name="com.atuldwivedi.testng.beginner.SimpleTest" />
+    </classes>
+  </test> -->
+</suite>	

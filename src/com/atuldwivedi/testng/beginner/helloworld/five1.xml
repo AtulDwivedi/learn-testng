@@ -1,0 +1,7 @@
+<suite name="Hello World">
+	<test name="Random Number Generator Test">
+		<classes>
+			<class name="com.atuldwivedi.testng.beginner.helloworld.TestRandomNumberGenerator" />
+		</classes>
+	</test>
+</suite>

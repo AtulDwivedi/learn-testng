@@ -1,0 +1,9 @@
+<suite name="My Suite" parallel="methods" thread-count="5">
+	<parameter name="browser-name" value="Firefox" />
+	<test name="My Test">
+		<classes>
+			<class
+				name="com.atuldwivedi.testng.beginner.helloworld.PopulateBorrowerTestClass1" />
+		</classes>
+	</test>
+</suite>

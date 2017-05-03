@@ -1,0 +1,10 @@
+<suite name="My Suite">
+	<parameter name="primary-borrower-base-name1" value="value1" />
+	<parameter name="primary-borrower-base-name"  value="value"/>
+	<test name="My Test">
+		<classes>
+			<class
+				name="com.atuldwivedi.testng.beginner.helloworld.PopulateBorrowerTestClass3" />
+		</classes>
+	</test>
+</suite>
